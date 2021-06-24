@@ -2,7 +2,7 @@
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-translate">
-              <a class="navbar-brand" href="http://www.creative-tim.com">Creative Tim</a>
+              <a class="navbar-brand" href="http://www.creative-tim.com">Pueblos Mágicos</a>
               <button type="button" class="ml-auto navbar-toggler" data-toggle="collapse" data-target="#navigation-example3">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>

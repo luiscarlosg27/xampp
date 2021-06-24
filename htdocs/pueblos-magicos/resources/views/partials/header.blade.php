@@ -8,8 +8,8 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item">
-              <div class="page-header header-filter" style="background-image: url('./assets/img/dg1.jpg');">
+            <div class="carousel-item ">
+              <div class="page-header header-filter " style="background-image: url('https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/11/pueblos_magicos_estado_de_mexico-4.jpg');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6 text-left">
@@ -35,8 +35,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item active">
-              <div class="page-header header-filter" style="background-image: url('./assets/img/dg2.jpg');">
+            <div class="carousel-item ">
+              <div class="page-header header-filter" style="background-image: url('https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/06/teotihuacan-1.jpg');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
@@ -63,8 +63,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="page-header header-filter" style="background-image: url('./assets/img/dg3.jpg');">
+            <div class="carousel-item active">
+              <div class="page-header header-filter" style="background-image: url('https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/08/malinalco-zona-arqueologica-edomex.jpg');">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-7 ml-auto text-right">
