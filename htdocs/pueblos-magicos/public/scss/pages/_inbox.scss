@@ -1,0 +1,295 @@
+.mail-inbox{
+    display: flex;
+
+    .mail-left{
+        @include transition(all .3s ease-in-out);
+        @include display-block;
+        width: 280px;
+        padding: 15px 25px;
+        height: calc(100vh - 140px);
+
+        .mail-side{
+
+            .nav{
+                flex-direction: column;
+
+                li{
+
+                    a{
+                        @extend .align-center;
+                        color: $gray-500;
+                        padding: 10px 0;
+                        display: flex; 
+                        align-items: center;                       
+                        
+                        i{
+                            width: 35px;
+                            text-align: left;
+                        
+                        }
+
+                        .badge {
+                            @extend .m-r-0;
+                            margin-left: auto;
+                        }
+                    }
+
+                    &:hover,
+                    &.active{
+                        a{
+                            color: $gray-300;
+                        }
+                    }
+                }
+            }
+
+            h3{
+                @extend .m-b-15;
+                @extend .m-t-30;
+                @extend .font-15;
+                font-weight: $font-weight-500;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .mail-right{
+        width: calc(100% - 280px);
+        position: relative; 
+        border-left: 1px solid #252a33;       
+
+        .header{
+            padding: 15px;            
+        }
+
+        h2{
+            line-height: 35px;
+        }
+
+        .mail-action{
+            padding: 15px;
+
+            .fancy-checkbox {
+                label{
+                    @extend .m-b-0;
+                }
+                input[type="checkbox"] {
+                    + span {
+                        &:before {
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+            
+            .pagination-email {
+                p{
+                    @extend .m-b-0;
+                    line-height: 30px;                    
+                }
+            }
+        }
+
+        .mail-list {
+            ul{
+                li{
+                    border-top: 1px solid $border-color;
+                    padding: 17px 15px 15px;                    
+                    width: 100%;
+                    position: relative;
+
+                    &:last-child{
+                        border-bottom: 1px solid $border-color;
+                    }
+                    &:hover{
+                        background: $border-color;
+                    }
+                    &.unread{
+                        position: relative;
+
+                        &::before{
+                            background: $color-danger;
+                            position: absolute;
+                            width: 3px;
+                            height: 100%;
+                            content: '';
+                            left: 0;
+                            top: 0;                            
+                        }
+                    }
+
+                    .mail-detail-left,
+                    .mail-detail-right{
+                        float: left;
+                    }
+
+                    .mail-detail-left{
+                        max-width: 60px;
+                        min-width: 60px;
+                        width: 60px;
+                        position: relative;
+                        margin-top: 8px;
+
+                        .fancy-checkbox{
+                            @extend .m-b-0;
+                        }
+
+                        .mail-star{
+                            color: $font-color;
+                            position: absolute;
+                            right: 13px;
+                            top: 0;                            
+
+                            &.active{
+                                color: $orange;
+                            }
+                        }
+                    }
+
+                    .mail-detail-right{
+                        position: relative;
+                        padding-right: 70px;
+                        width: calc(100% - 70px);
+
+                         span.time{
+                            @extend .font-12;
+                             position: absolute;
+                             top: 0;
+                             right: 0;                             
+                         }
+                         img{
+                             float: left;
+                             width: 38px;
+                         }
+                         p{
+                            @extend .m-b-0;
+                            @extend .m-l-10;
+                            width: calc(100% - 50px);
+                            float: left;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                         }
+                    }
+                }
+            }
+        }
+
+        .mail-detail-full{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;            
+
+            .mail-action{
+                @extend .p-15;
+            }
+
+            .detail-header{
+                padding: 20px 15px 0;
+                border-top: 1px solid $border-color;
+                border-bottom: 1px solid $border-color;
+
+                .float-left{
+                    img{
+                        @include border-radius(5px);
+                        max-width: 63px;
+                    }
+                }
+            }
+            .media-body{
+                p{
+                    a{
+                        color: $link-color;
+                    }
+                }
+            }
+            .mail-cnt{
+                @extend .p-20;
+            }
+        }
+
+        .mail-compose{
+            @extend .p-20;
+        }
+    }
+}
+.mobile-left{
+    display: none;
+}
+
+// Ipad
+@include max-screen($break-medium - 1px){
+    .mail-inbox {
+        .mail-left{
+            width: 230px;
+            height: calc(100vh - 52px);
+        }
+        .mail-right{
+            width: calc(100% - 230px);
+
+            .mail-action {
+                .btn {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                .pagination-email {
+                    p {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@include max-screen($break-small - 1px){
+    .mobile-left{
+        display: block;
+        position: fixed;
+        z-index: 9999;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .mail-inbox .mail-left{
+        position: absolute;
+        left: 0;
+        background-color: $white;
+        z-index: 7;
+    }
+    .mail-inbox {
+        .mail-left {
+            left: -240px;
+
+            &.open{
+                left: 0;
+            }
+        }
+        .mail-right {
+            width: 100%;
+            .header {
+                flex-direction: column;
+                .ml-auto {
+                    margin-left: 0 !important;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .mail-detail-full{
+
+        a.mail-back {
+            top: -60px;
+        }
+    }
+    .media-body{
+        p{
+            span,
+            small{
+                display: none;
+            }
+        }
+    }
+}

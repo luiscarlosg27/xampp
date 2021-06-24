@@ -1,0 +1,74 @@
+﻿.timeline{
+    @extend .p-l-30;
+
+    .timeline-item{
+        padding: 2em;
+        position: relative;
+        border-left: 1px solid rgba($white, 0.1);
+
+        > img{
+            position: absolute;
+            left: -18px;
+            border: 2px solid;
+        }
+        .date{
+            color: rgba($white, 0.3);
+        }
+        ul{
+            @extend .m-b-0;
+            li{
+                @extend .p-l-25;
+                line-height: 30px;
+                position: relative;
+
+                &::before{
+                    content: "\f178";
+                    left: 0;
+                    font-family: 'FontAwesome';
+                    position: absolute;
+
+                }
+            }
+        }
+        h5{
+            @extend .margin-0;
+        }
+        .msg{
+            @extend .m-t-10;
+            p:last-child{
+                @extend .m-b-0;
+            }
+        }
+
+        &.green{
+            border-color: $green;
+            img{
+                border-color: $green;
+            }
+        }
+        &.pink{
+            border-color: $pink;
+            img{
+                border-color: $pink;
+            }
+        }
+        &.indigo{
+            border-color: $indigo;
+            img{
+                border-color: $indigo;
+            }
+        }
+        &.cyan{
+            border-color: $cyan;
+            img{
+                border-color: $cyan;
+            }
+        }
+        &.orange{
+            border-color: $orange;
+            img{
+                border-color: $orange;
+            }
+        }
+    }
+}
