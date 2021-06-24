@@ -24,7 +24,7 @@
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Js With initialisations For Demo Purpose, Don't Include it in Your Project -->
-  <script src="URL::  asset('/demo/demo.js')" type="text/javascript"></script>
+  <script src="URL::  asse('/demo/demo.js')" type="text/javascript"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="URL::  asset('/js/material-kit.js?v=2.1.1')" type="text/javascript"></script>
   <script>
