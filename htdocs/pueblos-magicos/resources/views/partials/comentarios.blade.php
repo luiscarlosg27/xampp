@@ -2,8 +2,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
-              <h2 class="title">The Executive Team 4</h2>
-              <h5 class="description">This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.</h5>
+              <h2 class="title">Comentarios de Nuestros Visitantes</h2>
+              <h5 class="description">Encontraras los comentarios mas relevantes sobre nuestros visitantes y tal vez una que otra información adicional.</h5>
             </div>
           </div>
           <div class="row">
@@ -16,7 +16,7 @@
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">Alec Thompson</h4>
-                  <h6 class="card-category text-muted">CEO / Co-Founder</h6>
+                  <h6 class="card-category text-muted">Estados Unidos</h6>
                   <p class="card-description">
                     Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                   </p>
@@ -32,12 +32,12 @@
               <div class="card card-profile">
                 <div class="card-header card-avatar">
                   <a href="#pablo">
-                    <img class="img" src="./assets/img/faces/card-profile2-square.jpg">
+                    <img class="img" src="{{URL:: asset('/img/faces/card-profile2-square.jpg')}}">
                   </a>
                 </div>
                 <div class="card-body">
                   <h4 class="card-title">George West</h4>
-                  <h6 class="card-category text-muted">Backend Hacker</h6>
+                  <h6 class="card-category text-muted">Reino Unido</h6>
                   <p class="card-description">
                     Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                   </p>
@@ -52,12 +52,12 @@
               <div class="card card-profile">
                 <div class="card-header card-avatar">
                   <a href="#pablo">
-                    <img class="img" src="./assets/img/faces/card-profile4-square.jpg">
+                    <img class="img" src="{{URL:: asset('/img/faces/card-profile4-square.jpg')}}">
                   </a>
                 </div>
                 <div class="card-body ">
-                  <h4 class="card-title">Gina Andrew</h4>
-                  <h6 class="card-category text-muted">Web Designer</h6>
+                  <h4 class="card-title">Gina Juarez</h4>
+                  <h6 class="card-category text-muted">España</h6>
                   <p class="card-description">
                     Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                   </p>

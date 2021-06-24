@@ -40,29 +40,25 @@
               </div>
               <hr>
               <ul class="float-left">
+                
                 <li>
                   <a href="#pablo">
-                    Blog
+                    HOME
                   </a>
                 </li>
                 <li>
                   <a href="#pablo">
-                    Presentation
+                    ABOUT US
                   </a>
                 </li>
                 <li>
                   <a href="#pablo">
-                    Discover
+                    PRODUCTS
                   </a>
                 </li>
                 <li>
                   <a href="#pablo">
-                    Payment
-                  </a>
-                </li>
-                <li>
-                  <a href="#pablo">
-                    Contact Us
+                    CONTACT US
                   </a>
                 </li>
               </ul>
