@@ -13,12 +13,12 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6 text-left">
-                      <h1 class="title">Material Kit PRO</h1>
-                      <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                      <h1 class="title">Bienvenidos a </h1>
+                      <h4>Ixtapan de la Sal en esta imagen</h4>
                       <br>
                       <div class="buttons">
                         <a href="#pablo" class="btn btn-danger btn-lg">
-                          Read More
+                          Leer mas sobre...
                         </a>
                         <a href="#pablo" class="btn btn-just-icon btn-white btn-link">
                           <i class="fa fa-twitter"></i>
@@ -27,7 +27,7 @@
                           <i class="fa fa-facebook-square"></i>
                         </a>
                         <a href="#pablo" class="btn btn-just-icon btn-white btn-link">
-                          <i class="fa fa-get-pocket"></i>
+                          <i class="fa fa-instagram"></i>
                         </a>
                       </div>
                     </div>
@@ -40,20 +40,17 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                      <h1 class="title">Material Kit PRO</h1>
-                      <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                      <h1 class="title">Bienvenidos a </h1>
+                      <h4>El Oro un pueblo minero del Estado de México</h4>
                       <br>
-                      <h6>Connect with us on:</h6>
+                      <h6>Conecta con nosotros</h6>
                       <div class="buttons">
                         <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
                           <i class="fa fa-twitter"></i>
                         </a>
                         <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
                           <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
-                          <i class="fa fa-google-plus"></i>
-                        </a>
+                        </a>                         
                         <a href="#pablo" class="btn btn-just-icon btn-white btn-link btn-lg">
                           <i class="fa fa-instagram"></i>
                         </a>
@@ -68,15 +65,15 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-7 ml-auto text-right">
-                      <h1 class="title">New Collection 50% Off</h1>
-                      <h4>There's no doubt that Tesla is delighted with the interest, but the data also raises a few questions. How long will it take for Tesla to fulfill all those extra orders?</h4>
+                      <h1 class="title">Bienvenidos a </h1>
+                      <h4>Metepec. Este es el Pueblo del Árbol de la Vida, pues es aquí donde se elabora una de las artesanías de barro más peculiares y detalladas del país</h4>
                       <br>
                       <div class="buttons">
                         <a href="#pablo" class="btn btn-white btn-link btn-lg">
-                          <i class="material-icons">share</i> Share Offer
+                          <i class="material-icons">share</i> Compartir
                         </a>
                         <a href="#pablo" class="btn btn-danger btn-lg">
-                          <i class="material-icons">shopping_cart</i> Shop Now
+                          <i class="material-icons"></i> Leer más sobre...
                         </a>
                       </div>
                     </div>
