@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <title>
         @yield('title')
@@ -7,11 +7,12 @@
         @include('partials.head')
     </head>
     <body>
-    <!-- Page Loader -->
-
-         <!-- Header y Nav -->   
+    
+          <!-- Header y Nav -->   
+        <header>
         @include('partials.header')
-
+        </header>
+       <!-- Pueblos sugeridos y comentarios visitantes -->
         <section>
         <article>
         @include('partials.pueblossugeridos')
@@ -22,7 +23,7 @@
         </article>
         </section>
         
-
+        <!-- footer -->
         <footer class="footer footer-black footer-big">
          @include('partials.footer')   
         </footer>
